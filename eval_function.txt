@@ -1,0 +1,1 @@
+Eval function calculates a utility value that is derived from the heuristic which is formed from the current state of the game. Depending on this value the program chooses what is the best move to make.

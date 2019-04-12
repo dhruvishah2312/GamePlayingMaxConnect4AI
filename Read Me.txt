@@ -1,0 +1,25 @@
+Language used : Java
+UTA ID : 1001550403
+Name: Dhruvi Shah
+
+To run the code :
+
+>cd <your file path where .java file is present> 
+>javac AiPlayer.java  GameBoard.java Maxconnect4.java
+
+for one move mode
+>java Maxconnect4 one-move [input_file] [output_file] [depth]
+
+for Interactive mode
+>java Maxconnect4 interactive [input_file] computer-next [depth] // For bot to play
+and
+>java Maxconnect4 interactive [input_file] human-next [depth] // For human to play
+
+default file name : computer.txt and human.txt
+
+
+Structure : There are three files.
+
+maxconnect4.java contains main method through which we can choose the mode of playing i.e interactive or one-move.
+Gameboard.java checks the game state.
+AiPlayer.java contains the minimax code which is used by the bot to play next move.
